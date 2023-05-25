@@ -1,0 +1,40 @@
+.Home {
+  text-align: center;
+}
+
+.title {
+  border: solid;
+  background-color: grey; 
+  font-size: 50px;
+  padding: 100px;
+  margin: 0px;
+  
+}
+
+.searchbar {
+  font-size: 50px;
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 90px;
+  margin-right: 70px; /* Add margin-right for space between cards */
+  text-align: center;
+}
+
+.card:last-child {
+  margin-right: 0; /* Remove margin-right for the last card */
+}
+
