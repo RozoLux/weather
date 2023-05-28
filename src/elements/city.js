@@ -1,20 +1,19 @@
 import React from 'react';
-/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';*/
+import { FontAwesomeIcon } from '@fortawesome/fontawesome-free';
+import { faSearch } from '@fortawesome/fontawesome-free';
 
 const SearchBar = ({keyword, onChange}) => {
     
     return (   
         <div className="searchbar">
             <input 
-            key="search-bar"
             value={keyword}
             placeholder={"Please enter location"}
             onChange={(e) => onChange(e.target.value)}
             />
-        
-                        
-        </div>     
+        <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+             
             
     )
 }
